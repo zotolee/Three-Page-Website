@@ -1,3 +1,4 @@
+/* element styling */
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +6,29 @@
 }
 
 body {
-    background-color: ghostwhite;
+    background-color: #eee;
     font-family: sans-serif;
     font-size: 18px;
     line-height: 1.4;
+}
+header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+}
+span {
+    color: white;
+}
+li {
+    list-style: none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.fa-brands {
+    color: white;
 }
