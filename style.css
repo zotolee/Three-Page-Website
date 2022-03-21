@@ -44,6 +44,10 @@ nav {
     justify-content: space-around;
     margin-bottom: 15px;
 }
-.fa-brands {
-    color: black;
+.icon {
+    color: white;
+}
+.main {
+    display: block;
+    text-align: center;
 }
