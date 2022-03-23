@@ -4,14 +4,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-#page-header {
-    position: relative;
-}
+
 body {
     background-color: #eee;
-    font-family: sans-serif;
-    font-size: 18px;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 1.312rem;
     line-height: 1.4;
+    font-weight: 400;
+}
+section {
+    padding: 1.5rem 0;
+}
+.container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
 }
 header {
     background-color: black;
@@ -21,7 +27,8 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: right;   
+    align-items: right; 
+      
 }
 span {
     color: white;
@@ -38,16 +45,18 @@ h1 {
     margin: 0.6rem 0;
 }
 nav {
-    width: 100vw;
+    width: 80vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .icon {
     color: white;
 }
-.main {
-    display: block;
-    text-align: center;
+.box {
+    margin-left: -13rem;
+}
+.box-3 {
+    margin-right: -20rem;
 }
