@@ -54,7 +54,7 @@ nav {
     flex-direction: row;
     justify-content: space-around; 
 }
-@media (max-width:70.5rem) {
+@media (max-width:40.5rem) {
     nav {
         justify-content: flex-start;
         gap: 3rem;
