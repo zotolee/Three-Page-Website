@@ -19,13 +19,15 @@ header {
     background-color: black;
     top: 0;
     min-height: 25px;
-    padding: 0px 0px;
+    padding: 0px 15px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: right; 
     margin-block: auto;
+    position: fixed; 
 }
+
 span {
     color: white;
 }
@@ -50,8 +52,13 @@ nav {
     width: 80vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-   
+    justify-content: space-around; 
+}
+@media (max-width:70.5rem) {
+    nav {
+        justify-content: flex-start;
+        gap: 3rem;
+    }
 }
 footer {
     background-color: #d0d0d5;
@@ -71,7 +78,7 @@ footer {
     width: min(90%, 70.5rem);
     text-align: center;
     justify-content: center;
-    
+    align-items: center;
 }
 .flex-container {
     display: flex;
@@ -80,7 +87,7 @@ footer {
 }
 .flex-item {
     margin: 15px;
-    font-size: 20px;
+    font-size: 18px;
 
 }
 .icon {
@@ -131,11 +138,11 @@ footer {
 .sign-in {
     margin: 0 auto;
     max-height: 100%;
-    max-width: 300px;
-    padding: 10px;
+    max-width: 500px;
+    padding: 20px;
     width: 100%;
-    font-weight: 700;
-    border: 3px solid #feac32;
+    font-weight: 900;
+    border: 2px solid #feac32;
     background-color: #feac32;
     cursor: pointer;
     margin-bottom: 2rem;
@@ -202,4 +209,12 @@ footer {
 .col1 {
     font-weight: 50;
 }
-
+.main {
+    display: block;
+}
+.container-flow {
+    margin: 0 auto;
+    max-width: 50rem;
+    padding: 0 1.5rem;
+    line-height: 2.0;
+}
