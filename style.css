@@ -82,13 +82,12 @@ footer {
 }
 .flex-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 .flex-item {
     margin: 15px;
     font-size: 18px;
-
+    
 }
 .icon {
     color: white;
